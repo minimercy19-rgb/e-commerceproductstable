@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+thead {
+  background: #007bff;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  vertical-align: top;
+}
+
+th {
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* ✅ Hover effect on table rows */
+tbody tr:hover {
+  background: #d9ebff;   /* light blue highlight */
+  cursor: pointer;
+  transform: scale(1.01); /* subtle zoom */
+  transition: all 0.2s ease-in-out;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+/* ✅ Search box styling */
+.search-box {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-box input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
